@@ -1,0 +1,204 @@
+body {
+
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+
+
+
+
+}
+
+
+
+#container {
+
+
+
+    min-width: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    /*background-size: contain;*/
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+.tytul {
+
+    margin: 0;
+    padding: 0;
+
+
+    top: 400px;
+    left: 70px;
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+
+
+@media(min-width:1170px) {
+    #container {
+
+
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/man-1.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+
+    }
+
+
+
+
+
+    .tytul {
+        font-size: 26px;
+        top: 550px;
+
+
+
+        margin: 0;
+        padding: 0;
+
+
+        left: 70px;
+        color: white;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        text-align: center;
+
+
+
+        justify-content: flex-start;
+        /*        flex-direction: column;*/
+
+    }
+
+
+}
+
+
+
+@media(max-width:1170px) {
+    #container {
+        width: 70%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url('../img/man-2.jpg');
+        /*        background-position: 70% auto;*/
+        background-size: 90% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+
+
+    }
+
+
+
+
+    .tytul {
+        font-size: 12px;
+        left: 590px;
+        /*        right: 394px;*/
+        top: 120px;
+        position: relative;
+
+        /*        justify-content: center;*/
+        color: white;
+
+
+        /*
+        display: flex;
+        text-align: left;
+
+
+      
+        align-items: flex-end;*/
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:992px) {
+    #container {
+
+
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+
+
+        background-image: url('../img/man-1.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 50% auto;
+
+        position: absolute;
+
+
+
+
+    }
+
+
+
+
+
+    .tytul {
+        color: black;
+
+        left: 10px;
+        top: 330px;
+        font-size: 9px;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+}
