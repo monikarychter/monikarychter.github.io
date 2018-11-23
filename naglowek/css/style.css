@@ -17,14 +17,14 @@ body {
 
 
 
-    min-width: 100%;
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
 
     margin: 0;
     padding: 0;
     position: absolute;
 
-    /*background-size: contain;*/
+    background-size: cover;
 
     color: #fff;
 
@@ -39,11 +39,10 @@ body {
 .tytul {
 
     margin: 0;
-    padding: 0;
 
 
-    top: 400px;
-    left: 70px;
+
+
     display: flex;
     align-items: flex-start;
 
@@ -60,13 +59,14 @@ body {
     #container {
 
 
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
 
         display: flex;
         justify-content: center;
         align-items: center;
         background-image: url('../img/man-1.jpg');
-        background-size: 100% auto;
+        background-size: cover;
         background-repeat: no-repeat;
         position: absolute;
 
@@ -78,21 +78,23 @@ body {
 
     .tytul {
         font-size: 26px;
-        top: 550px;
+        /*        top: 550px;*/
 
 
 
         margin: 0;
-        padding: 0;
+
+        padding-left: 65px;
 
 
-        left: 70px;
+        padding-top: 480px;
         color: white;
         position: relative;
         display: flex;
         align-items: flex-start;
+        /*
         text-align: left;
-        text-align: center;
+        text-align: center;*/
 
 
 
@@ -108,7 +110,9 @@ body {
 
 @media(max-width:1170px) {
     #container {
-        width: 70%;
+        width: 100%;
+        height: 70%;
+
 
 
         display: flex;
@@ -116,8 +120,8 @@ body {
         justify-content: center;
 
         background-image: url('../img/man-2.jpg');
-        /*        background-position: 70% auto;*/
-        background-size: 90% auto;
+
+        background-size: cover;
         background-repeat: no-repeat;
         position: absolute;
 
@@ -128,10 +132,12 @@ body {
 
 
     .tytul {
-        font-size: 12px;
-        left: 590px;
-        /*        right: 394px;*/
-        top: 120px;
+        font-size: 15px;
+        padding-left: 590px;
+        padding-top: 130px;
+
+
+        /*        top: 120px;*/
         position: relative;
 
         /*        justify-content: center;*/
@@ -163,7 +169,8 @@ body {
     #container {
 
 
-        width: 50%;
+        width: 100%;
+        height: 50%;
 
         display: flex;
         flex-direction: column;
@@ -172,7 +179,7 @@ body {
         background-image: url('../img/man-1.jpg');
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 50% auto;
+        background-size: cover;
 
         position: absolute;
 
@@ -188,9 +195,11 @@ body {
     .tytul {
         color: black;
 
-        left: 10px;
-        top: 330px;
-        font-size: 9px;
+
+        padding-left: 135px;
+        padding-top: 430px;
+        padding-right: 62px;
+        font-size: 12px;
         position: relative;
         display: flex;
         align-items: center;
