@@ -1,0 +1,42 @@
+.tytul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #a29e9e;
+    margin-top: 50px;
+
+
+}
+
+.row {
+    /*    box-sizing: content-box;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px;
+    padding-left: 70px;
+
+}
+
+.fab {
+
+    background: #f6f8fa;
+    box-sizing: content-box;
+    margin: 34px;
+    padding: 20px;
+    border-radius: 540px;
+    font-size: 65px;
+
+
+
+}
+
+p {
+    color: black;
+    font-size: 15px;
+
+}
