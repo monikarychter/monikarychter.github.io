@@ -69,9 +69,21 @@ i {
 
 .tytul {
     font-family: Arial;
-    margin-right: 260px;
+
     font-size: 19px;
     color: #a2b2dd;
+    padding-left: 470px;
+    padding-right: 20px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+
+
+    background-color: #faf7ef;
+    width: 970px;
+    height: 41px;
+    margin: auto;
+    margin-top: 56px;
 
     font-weight: 800;
 
@@ -96,7 +108,8 @@ section {
 
 .fas fa-arrow-left {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
+
 }
 
 
@@ -122,22 +135,40 @@ h1 {
 }
 
 .search {
+
+
+
     display: flex;
     justify-content: flex-end;
-    background-color: #faf7ef;
-    width: 970px;
-    height: 41px;
-    margin: auto;
 
-    margin-top: 33px;
+    /*    width: 70px;*/
+    height: 17px;
+    /*
+    margin-top: 36px;
+    margin-right: 167px;
+*/
+    margin-left: 167px;
+
+
+
+
+}
+
+.form-c {
+    margin-right: 45px;
+    background-color: #faf7ef;
+    color: #dedddd;
+    height: 25px;
+    width: 104px;
 
 }
 
 
 .table {
 
-    margin-left: 50px;
-    height: 400px;
+    /*    margin-left: 50px;*/
+    height: 500px;
+    margin: auto;
 
 
 }
