@@ -69,7 +69,7 @@ i {
 
 .tytul {
     font-family: Arial;
-    margin-right: 220px;
+    margin-right: 260px;
     font-size: 19px;
     color: #a2b2dd;
 
@@ -125,13 +125,13 @@ h1 {
     display: flex;
     justify-content: flex-end;
     background-color: #faf7ef;
-    width: 900px;
-    height: 30px;
+    width: 970px;
+    height: 41px;
 
 
 
-    margin-right: 160px;
-    margin-left: 240px;
+    margin-right: 150px;
+    margin-left: 200px;
     margin-top: 33px;
 
 }
