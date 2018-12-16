@@ -124,7 +124,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     background-color: #faf7ef;
-    ;
+
     margin-right: 154px;
     margin-left: 150px;
     margin-top: 23px;
@@ -154,10 +154,6 @@ th {
 
 
 
-}
-
-tr:nth-child(even) {
-    background-color: #c0e4ed;
 }
 
 
