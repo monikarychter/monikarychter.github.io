@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    height: 60%;
+    /*
+    border: 8px;
+    border-style: groove;
+*/
+    /*    border: 2px solid #ddd;*/
+    padding: 8px;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+
+
+}
+
+#users {
+    background-color: #f2f2f2;
+
+    text-align: center;
+}
+
+
+
+.row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.white {
+    background-color: white;
+
+}
+
+.container .row:hover {
+    background-color: #bacef4;
+}
+
+#tytul {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #91b7fc;
+    color: white;

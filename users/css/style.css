@@ -173,6 +173,31 @@ h1 {
 
 }
 
+.box #D {
+    background-color: #91b7fc;
+    color: white;
+}
+
+.box #name {
+    background-color: #91b7fc;
+    color: white;
+}
+
+.box #username {
+    background-color: #91b7fc;
+    color: white;
+}
+
+.box #email {
+    background-color: #91b7fc;
+    color: white;
+}
+
+.box #action {
+    background-color: #91b7fc;
+    color: white;
+}
+
 .tbox {
     height: 5px;
     margin: auto;
@@ -244,7 +269,7 @@ th {
 
     padding-left: 600px;
 
-    margin-top: 74px;
+    margin-top: 50px;
     /*    background-color: #e6b520*/
 }
 
